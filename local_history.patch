@@ -1,0 +1,129 @@
+Index: protected/extensions/giix/CHANGELOG
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/CHANGELOG	(revision )
++++ protected/extensions/giix/CHANGELOG	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/extensions/giix/FAQ
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/FAQ	(revision )
++++ protected/extensions/giix/FAQ	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/extensions/giix/INSTALL
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/INSTALL	(revision )
++++ protected/extensions/giix/INSTALL	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/extensions/giix/LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/LICENSE	(revision )
++++ protected/extensions/giix/LICENSE	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/extensions/giix/README
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/README	(revision )
++++ protected/extensions/giix/README	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/extensions/giix/UPGRADE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/extensions/giix/UPGRADE	(revision )
++++ protected/extensions/giix/UPGRADE	(revision )
+@@ -1,1 +0,0 @@
+-
+\ No newline at end of file
+Index: protected/modules/admin/controllers/LoginController.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/modules/admin/controllers/LoginController.php	(revision )
++++ protected/modules/admin/controllers/LoginController.php	(revision )
+@@ -20,6 +20,7 @@
+                 if ($identity->authenticate()) {
+                     $duration = $model->rememberMe ? 3600 * 24 * 30 : 0; // 30 days
+                     Yii::app()->user->login($identity, $duration);
++//                    var_dump(Yii::app()->user->returnUrl);
+                     $this->redirect(Yii::app()->user->returnUrl);
+                 } else {
+                     $model->addError('user_password', 'incorrect email or password');
+Index: protected/runtime/application.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- protected/runtime/application.log	(revision )
++++ protected/runtime/application.log	(revision )
+@@ -7272,3 +7272,46 @@
+ #27 {main}
+ REQUEST_URI=/yiiblog/admin/user/manage
+ ---
++2012/10/01 09:07:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/login/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
++Stack trace:
++#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin/admin/log...')
++#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
++#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
++#3 {main}
++REQUEST_URI=/yiiblog/admin/admin/login/index
++HTTP_REFERER=http://localhost/yiiblog/admin/login
++---
++2012/10/01 09:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rights".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
++Stack trace:
++#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('rights')
++#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
++#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
++#3 {main}
++REQUEST_URI=/yiiblog/rights/
++---
++2012/10/01 09:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rights".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
++Stack trace:
++#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('rights')
++#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
++#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
++#3 {main}
++REQUEST_URI=/yiiblog/rights/
++---
++2012/10/01 09:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/login/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
++Stack trace:
++#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin/admin/log...')
++#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
++#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
++#3 {main}
++REQUEST_URI=/yiiblog/admin/admin/login/index
++HTTP_REFERER=http://localhost/yiiblog/admin/login
++---
++2012/10/01 09:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/login/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
++Stack trace:
++#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin/admin/log...')
++#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
++#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
++#3 {main}
++REQUEST_URI=/yiiblog/admin/admin/login/index
++HTTP_REFERER=http://localhost/yiiblog/admin/login
++---
