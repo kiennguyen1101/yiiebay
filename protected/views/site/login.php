@@ -24,16 +24,16 @@ $this->breadcrumbs=array(
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username'); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'user_email'); ?>
+        <?php echo $form->textField($model,'user_email'); ?>
+        <?php echo $form->error($model,'user_email'); ?>
+    </div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password'); ?>
-		<?php echo $form->error($model,'password'); ?>
+    <div class="row">
+        <?php echo $form->labelEx($model,'user_password'); ?>
+        <?php echo $form->passwordField($model,'user_password'); ?>
+        <?php echo $form->error($model,'user_password'); ?>
 		<p class="hint">
 			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
 		</p>

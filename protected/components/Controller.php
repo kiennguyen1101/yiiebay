@@ -4,7 +4,8 @@
  * Controller is the customized base controller class.
  * All controller classes for this application should extend from this base class.
  */
-class Controller extends CController {
+class Controller extends CController
+{
 
     /**
      * @var string the default layout for the controller view. Defaults to '//layouts/column1',
@@ -24,15 +25,22 @@ class Controller extends CController {
      */
     public $breadcrumbs = array();
 
-    public function beforeRender($view) {
+    public function beforeRender($view)
+    {
         $cs = Yii::app()->clientScript;
 
-        $cs->scriptMap = array(
+        //var_dump($cs->isScriptFileRegistered(Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG).'/js/bootstrap.js'));
+        //var_dump($cs->scripts);
+        $cs->registerCssFile(Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG) . '/css/bootstrap-responsive.css');
+        $cs->scriptMap = array_merge($cs->scriptMap, array(
             'jquery.js' => 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js',
-        );
-        
-        $expires = 60 * 60 * 24 * 7;   // seconds * minutes * hours * days = 7 days
-        
+            'bootstrap.js' => Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG) . '/js/bootstrap.min.js',
+            // 'bootstrap.css' => false,
+            // 'bootstrap-responsive.css' => Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG).'/css/bootstrap-responsive.css',
+        ));
+
+        $expires = 60 * 60 * 24 * 7; // seconds * minutes * hours * days = 7 days
+
         header("Cache-Control: max-age={$expires}, public, s-maxage={$expires}");
         header("Pragma: ");
         header('Expires: ' . date('D, d M Y H:i:s', time() + $expires) . ' GMT');
@@ -40,6 +48,11 @@ class Controller extends CController {
 
         return parent::beforeRender($view);
     }
-    
+
+    protected function afterAction($action)
+    {
+        Yii::app()->user->setReturnUrl($this->createUrl($this->route, $this->actionParams));
+    }
+
 
 }

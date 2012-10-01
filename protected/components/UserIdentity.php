@@ -7,27 +7,41 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	/**
-	 * Authenticates a user.
-	 * The example implementation makes sure if the username and password
-	 * are both 'demo'.
-	 * In practical applications, this should be changed to authenticate
-	 * against some persistent user identity storage (e.g. database).
-	 * @return boolean whether authentication succeeds.
-	 */
-	public function authenticate()
-	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
-	}
+    /**
+     * Authenticates a user.
+     * The example implementation makes sure if the username and password
+     * are both 'demo'.
+     * In practical applications, this should be changed to authenticate
+     * against some persistent user identity storage (e.g. database).
+     * @return boolean whether authentication succeeds.
+     */
+    public function authenticate()
+    {
+        $email = strtolower($this->username);
+        $criteria = new CDbCriteria;
+        $criteria->together = true;
+        $criteria->condition = "user_email = :user_email";
+        $criteria->params = array(':user_email' => $email);
+
+        $account = Users::model()->find($criteria);
+
+        if ($account === null) {
+            $this->errorCode = self::ERROR_USERNAME_INVALID;
+        } elseif (!$this->validatePassword($this->password, $account->user_password)) {
+            $this->errorCode = self::ERROR_PASSWORD_INVALID;
+        } else {
+            $this->errorCode = self::ERROR_NONE;
+            $this->setState('attributes',$account->attributes);
+        }
+
+
+        return $this->errorCode == self::ERROR_NONE;
+    }
+
+    public function validatePassword($password, $password_repeat)
+    {
+        //$pass = md5(md5($this->password).Yii::app()->params["salt"]);
+        $hash = md5($password);
+        return ($hash === $password_repeat);
+    }
 }

@@ -27,7 +27,7 @@ if (class_exists('Memcache')) {
 
 if (!$use_memcache) {
     $cache = array(
-        'class' => 'system.caching.CApcCache',
+        'class' => 'system.caching.CFileCache',
     );
 } else {
     $hash = md5_file(dirname(__FILE__) . '/main_config.php');
@@ -45,24 +45,38 @@ $config = array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'My Web Application',
     // preloading 'log' component
-    'preload' => array('log'),
+    'preload' => array('log', 'bootstrap',),
     // autoloading model and component classes
     'import' => array(
         'application.models.*',
-        'application.components.*', 
+        'application.components.*',
+
     ),
     'modules' => array(
         // uncomment the following to enable the Gii tool
+        'admin' => array(
+            'components' => array(
+                'user' => array(
+                    'loginUrl' => array('/admin/login'),
+                ),
+            ),
+        ),
 
         'gii' => array(
             'class' => 'system.gii.GiiModule',
             'password' => '1',
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters' => array('127.0.0.1', '::1'),
+            'generatorPaths' => array(
+                'bootstrap.gii',
+            ),
         ),
     ),
     // application components
     'components' => array(
+        'bootstrap' => array(
+            'class' => 'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+        ),
         'cache' => $cache,
         'user' => array(
             // enable cookie-based authentication
@@ -108,12 +122,12 @@ $config = array(
                     //   'config'=>'alignLeft, opaque, runInDebug, fixedPos, collapsed, yamlStyle',
                     'levels' => 'error, warning, trace, profile, info',
                 ),
-            // uncomment the following to show log messages on web pages
-            /*
-              array(
-              'class'=>'CWebLogRoute',
-              ),
-             */
+                // uncomment the following to show log messages on web pages
+                /*
+                 array(
+                 'class'=>'CWebLogRoute',
+                 ),
+                */
             ),
         ),
         'email' => array(
