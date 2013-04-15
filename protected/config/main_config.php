@@ -50,7 +50,8 @@ $config = array(
     'import' => array(
         'application.models.*',
         'application.components.*',
-
+        'application.modules.rights.*',
+        'application.modules.rights.components.*',   // Correct paths if necessary.
     ),
     'modules' => array(
         // uncomment the following to enable the Gii tool
@@ -71,15 +72,33 @@ $config = array(
                 'bootstrap.gii',
             ),
         ),
+
+        'rights'=>array(
+            'userClass' => 'Users',
+            'userNameColumn'=>'user_name',     // Name of the user name column in the database.
+            'appLayout'=>'application.views.layouts.main-site',  // Application layout.
+            'install'=>false,        // Whether to install rights.
+            'debug'=>true,        // Whether to enable debug mode.
+        ),
     ),
     // application components
     'components' => array(
+        'authManager' => array(
+            'class'=>'RDbAuthManager',
+            'connectionID'=>'db', // as in your database configuraiton
+            'itemTable'=>'authitem',
+            'itemChildTable'=>'authitemchild',
+            'assignmentTable'=>'authassignment',
+            'rightsTable'=>'rights',
+
+        ),
         'bootstrap' => array(
             'class' => 'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
         ),
         'cache' => $cache,
         'user' => array(
             // enable cookie-based authentication
+            'class'=>'RWebUser',
             'allowAutoLogin' => true,
         ),
         // uncomment the following to enable URLs in path-format

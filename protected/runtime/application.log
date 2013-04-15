@@ -7272,3 +7272,223 @@ Stack trace:
 #27 {main}
 REQUEST_URI=/yiiblog/admin/user/manage
 ---
+2012/10/01 09:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/login/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin/admin/log...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiblog/admin/admin/login/index
+HTTP_REFERER=http://localhost/yiiblog/admin/login
+---
+2012/10/01 10:02:25 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 C:\wamp\www\yiiblog\protected\modules\admin\views\index.php(1): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', NULL, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('/index', NULL, true)
+#6 C:\wamp\www\yiiblog\protected\modules\admin\controllers\MainController.php(13): CController->render('/index')
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): MainController->actionIndex()
+#8 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#18 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiiblog/admin
+HTTP_REFERER=http://localhost/yiiblog/admin/login
+---
+2012/10/01 10:02:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 C:\wamp\www\yiiblog\protected\modules\admin\views\index.php(1): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', NULL, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('/index', NULL, true)
+#6 C:\wamp\www\yiiblog\protected\modules\admin\controllers\MainController.php(13): CController->render('/index')
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): MainController->actionIndex()
+#8 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#18 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiiblog/admin
+HTTP_REFERER=http://localhost/yiiblog/admin/login
+---
+2012/10/01 10:02:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.user_name" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(141): CComponent->__get('user_name')
+#1 C:\wamp\www\yiiblog\protected\modules\admin\views\index.php(1): CWebUser->__get('user_name')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', NULL, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', NULL, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('/index', NULL, true)
+#6 C:\wamp\www\yiiblog\protected\modules\admin\controllers\MainController.php(13): CController->render('/index')
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): MainController->actionIndex()
+#8 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#18 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiiblog/admin
+HTTP_REFERER=http://localhost/yiiblog/admin/login
+---
+2012/10/01 10:25:17 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:17 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:17 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:17 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:24 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:24 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:24 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:24 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:42 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:42 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:42 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:25:42 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:14 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:14 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:14 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:14 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:18 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:18 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:18 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:18 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:55 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:55 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:55 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:29:55 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:43:27 [warning] [application] Failed to set unsafe attribute "user_status" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:43:27 [warning] [application] Failed to set unsafe attribute "user_displayname" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:43:27 [warning] [application] Failed to set unsafe attribute "id" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/01 10:43:27 [warning] [application] Failed to set unsafe attribute "user_activation_key" of "RegisterForm".
+in C:\wamp\www\yiiblog\protected\controllers\site\actions\registerAction.php (12)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/02 13:28:06 [error] [exception.CException] exception 'CException' with message 'Property "RDbAuthManager.connection" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(222): CComponent->__set('connection', 'db')
+#1 C:\wamp\www\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('authManager')
+#3 C:\wamp\www\yiiblog\protected\modules\rights\RightsModule.php(129): CModule->__get('authManager')
+#4 C:\wamp\www\yii\framework\base\CModule.php(91): RightsModule->init()
+#5 C:\wamp\www\yii\framework\YiiBase.php(208): CModule->__construct('rights', NULL, Array)
+#6 C:\wamp\www\yii\framework\base\CModule.php(283): YiiBase::createComponent('rights.RightsMo...', 'rights', NULL, Array)
+#7 C:\wamp\www\yiiblog\protected\modules\rights\components\Rights.php(271): CModule->getModule('rights')
+#8 C:\wamp\www\yiiblog\protected\modules\rights\components\Rights.php(254): Rights::findModule()
+#9 C:\wamp\www\yiiblog\protected\modules\rights\components\Rights.php(287): Rights::module()
+#10 C:\wamp\www\yiiblog\protected\modules\rights\components\RWebUser.php(21): Rights::getAuthorizer()
+#11 C:\wamp\www\yii\framework\web\auth\CWebUser.php(239): RWebUser->afterLogin(false)
+#12 C:\wamp\www\yiiblog\protected\modules\admin\controllers\LoginController.php(22): CWebUser->login(Object(UserIdentity), 0)
+#13 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionIndex()
+#14 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('admin/login')
+#19 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#21 {main}
+REQUEST_URI=/yiiblog/admin/login
+HTTP_REFERER=http://localhost/yiiblog/admin/login
+---
+2012/10/02 13:28:32 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\wamp\www\yiiblog\protected\modules\rights\components\RAuthorizer.php(295): model()
+#2 C:\wamp\www\yiiblog\protected\modules\rights\controllers\InstallController.php(61): RAuthorizer->getSuperusers()
+#3 C:\wamp\www\yii\framework\web\CController.php(1145): InstallController->accessRules()
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): InstallController->filterAccessControl()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): InstallController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(283): InstallController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\yiiblog\index.php(31): CWebApplication->run()
+REQUEST_URI=/yiiblog/rights
+in C:\wamp\www\yiiblog\protected\modules\rights\components\RAuthorizer.php (295)
+in C:\wamp\www\yiiblog\protected\modules\rights\controllers\InstallController.php (61)
+in C:\wamp\www\yiiblog\index.php (31)
+2012/10/02 13:30:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1217 Cannot delete or update a parent row: a foreign key constraint fails. The SQL statement executed was: drop table if exists authitem.
+in C:\wamp\www\yiiblog\protected\modules\rights\components\RInstaller.php (105)
+in C:\wamp\www\yiiblog\protected\modules\rights\controllers\InstallController.php (90)
+in C:\wamp\www\yiiblog\index.php (31)

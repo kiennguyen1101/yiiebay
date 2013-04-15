@@ -20,21 +20,7 @@ class DefaultController extends Controller
         parent::init();
     }
 
-    public function filters()
-    {
-        return array(
-            'accessControl',
-        );
-    }
 
-    public function accessRules()
-    {
-       return array(
-           array('deny',
-               'controllers' => array('main','user' ),
-               'users' => array('?')),
-       );
-    }
 
    /* protected function beforeAction($action) {
         if (Yii::app()->user->isGuest)

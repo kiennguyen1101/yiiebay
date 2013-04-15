@@ -7,6 +7,8 @@
  */
 class UserIdentity extends CUserIdentity
 {
+
+    private $_id;
     /**
      * Authenticates a user.
      * The example implementation makes sure if the username and password
@@ -31,6 +33,8 @@ class UserIdentity extends CUserIdentity
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
         } else {
             $this->errorCode = self::ERROR_NONE;
+            $this->_id = $account->id;
+            $this->username = $account->user_name;
             $this->setState('attributes',$account->attributes);
         }
 

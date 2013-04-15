@@ -33,7 +33,7 @@ class Controller extends CController
         //var_dump($cs->scripts);
         $cs->registerCssFile(Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG) . '/css/bootstrap-responsive.css');
         $cs->scriptMap = array_merge($cs->scriptMap, array(
-            'jquery.js' => 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js',
+            'jquery.js' => Yii::app()->baseUrl. '/js/jquery1.8.2.min.js',
             'bootstrap.js' => Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG) . '/js/bootstrap.min.js',
             // 'bootstrap.css' => false,
             // 'bootstrap-responsive.css' => Yii::app()->assetManager->publish(Yii::getPathOfAlias('bootstrap.assets'), false, -1, YII_DEBUG).'/css/bootstrap-responsive.css',
@@ -41,9 +41,9 @@ class Controller extends CController
 
         $expires = 60 * 60 * 24 * 7; // seconds * minutes * hours * days = 7 days
 
-        header("Cache-Control: max-age={$expires}, public, s-maxage={$expires}");
+        /*header("Cache-Control: max-age={$expires}, public, s-maxage={$expires}");
         header("Pragma: ");
-        header('Expires: ' . date('D, d M Y H:i:s', time() + $expires) . ' GMT');
+        header('Expires: ' . date('D, d M Y H:i:s', time() + $expires) . ' GMT');*/
 
 
         return parent::beforeRender($view);

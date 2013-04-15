@@ -8,8 +8,6 @@
     <meta name="keywords" content="Yii, blog"/>
     <meta name="author" content="kiennguyen1101"/>
     <meta name="viewport" content="width=device-width">
-    <meta http-equiv="Cache-Control" content="private">
-
 
     <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/icons/favicon.png">
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css"/>
@@ -30,7 +28,7 @@
             'class' => 'bootstrap.widgets.TbMenu',
             'items' => array(
                 array('label' => 'Home', 'url' => array('/')),
-                array('label' => 'Logout (' . Yii::app()->user->attributes['user_displayname'] . ')', 'url' => array('/logout'), 'visible' => !Yii::app()->user->isGuest)
+                array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/logout'), 'visible' => !Yii::app()->user->isGuest)
             ),
         )
     ),

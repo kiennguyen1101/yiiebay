@@ -2,176 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ee1766-b56f-4c44-a8ae-e13c4ae3df0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/CHANGELOG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/FAQ" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/INSTALL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/giix/UPGRADE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/view.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\controllers\AdminController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\controllers\admin\UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\UserModule.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UActiveForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UActiveRecord.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UHtml.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UWfile.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UWjuiAutoComplete.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UWjuidate.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\UserIdentity.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\components\WebUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\ActivationController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\AdminController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\LoginController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\LogoutController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\ProfileController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\ProfileFieldController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\RecoveryController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\RegistrationController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\controllers\UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\data\schema.mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\data\schema.sqlite.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\data\user.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\de\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\de\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\el\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\el\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\es\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\es\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\fr\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\fr\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\hu\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\hu\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ja\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ja\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\nl\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\nl\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\pl\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\pl\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\pt\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\pt\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ro\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ro\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ru\UWrelBelongsTo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\ru\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\messages\uk\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\migrations\m110805_153437_installYiiUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\migrations\m110810_162301_userTimestampFix.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\Profile.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\ProfileField.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\RegistrationForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\User.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\UserChangePassword.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\UserLogin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\models\UserRecoveryForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\admin\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-anim_basic_16x16.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\base\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_217bc0_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_469bdd_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_6da8d5_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_d8e7f3_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\images\ui-icons_f9bd01_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\redmond\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\js\jquery-ui-1.8.4.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\js\jquery-ui-i18n.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\js\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\asset\js\jquery.json.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\_view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\admin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profileField\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profile\changepassword.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profile\edit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\profile\profile.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\recovery\changepassword.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\recovery\recovery.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\user\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\user\login.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\user\message.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\user\registration.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\modules\user\views\user\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\yiiblog\protected\views\layouts\column2.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\yiiblog\protected\controllers\actions\registerAction.php" afterPath="$PROJECT_DIR$/protected/controllers/site/actions/registerAction.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\_view.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/_view.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/manage.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\yiiblog\protected\views\admin\user\create.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/user/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yiiblog.iml" afterPath="$PROJECT_DIR$/.idea/yiiblog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/Controller.php" afterPath="$PROJECT_DIR$/protected/components/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/UserIdentity.php" afterPath="$PROJECT_DIR$/protected/components/UserIdentity.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main_config.php" afterPath="$PROJECT_DIR$/protected/config/main_config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/LoginForm.php" afterPath="$PROJECT_DIR$/protected/models/LoginForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/index.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.12/ControllerCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.12/ControllerCode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main-site.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main-site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/error.php" afterPath="$PROJECT_DIR$/protected/views/site/error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/login.php" afterPath="$PROJECT_DIR$/protected/views/site/login.php" />
     </list>
     <ignored path="yiiblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -196,46 +39,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="190" selection-end="190" vertical-scroll-proportion="-4.1923075">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="558" selection-end="558" vertical-scroll-proportion="-5.3461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/main_config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="31" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-5.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="33" selection-start="1880" selection-end="1880" vertical-scroll-proportion="-6.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_view.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/user/_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="442" selection-end="442" vertical-scroll-proportion="0.3831967">
+            <state line="17" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0331384">
               <folding />
             </state>
           </provider>
@@ -244,16 +51,7 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="17" selection-start="3452" selection-end="3452" vertical-scroll-proportion="-2.7307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="120" column="33" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,7 +60,25 @@
       <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="-6.1538463">
+            <state line="6" column="47" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="42" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -271,7 +87,16 @@
       <file leaf-file-name="MainController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2692308">
+            <state line="13" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -280,7 +105,25 @@
       <file leaf-file-name="main-site.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main-site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="27" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/config/main_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="24" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -299,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/user/index.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/user/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/user/_search.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/user/manage.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php" />
-        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main-site.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main-site.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php" />
+        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php" />
         <option value="$PROJECT_DIR$/protected/config/main_config.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php" />
       </list>
     </option>
   </component>
@@ -380,320 +223,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="yiiblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiiblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -781,6 +310,11 @@
       <created>1348537624138</created>
       <updated>1348537624138</updated>
     </task>
+    <task id="LOCAL-00001" summary="before authentication">
+      <created>1349084187056</created>
+      <updated>1349084187056</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -805,15 +339,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Framework MVC Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49315068" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.494863" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1969697" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20227273" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
@@ -825,6 +358,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework MVS Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -897,14 +431,16 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="92" selection-start="494" selection-end="494" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-14.769231" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../yii/framework/web/CHttpRequest.php">
@@ -912,84 +448,87 @@
         <state line="31" column="20" selection-start="257" selection-end="3260" vertical-scroll-proportion="0.3489279" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/user/_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="34" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2090164" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main-site.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+        <state line="25" column="7" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0662768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="42" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="31" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="190" selection-end="190" vertical-scroll-proportion="-4.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="558" selection-end="558" vertical-scroll-proportion="-5.3461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2692308">
+        <state line="2" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="17" selection-start="3452" selection-end="3452" vertical-scroll-proportion="-2.7307692">
+        <state line="120" column="33" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="767" selection-end="767" vertical-scroll-proportion="-6.1538463">
+        <state line="6" column="47" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main-site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="1880" selection-end="1880" vertical-scroll-proportion="-6.0">
+        <state line="12" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/user/_view.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/main-admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="442" selection-end="442" vertical-scroll-proportion="0.3831967">
+        <state line="21" column="27" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="24" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0331384">
           <folding />
         </state>
       </provider>

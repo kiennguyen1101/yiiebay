@@ -20,7 +20,7 @@ class LoginController extends DefaultController
                 if ($identity->authenticate()) {
                     $duration = $model->rememberMe ? 3600 * 24 * 30 : 0; // 30 days
                     Yii::app()->user->login($identity, $duration);
-                    $this->redirect(Yii::app()->user->returnUrl);
+                    $this->redirect($this->createUrl('/admin/'));
                 } else {
                     $model->addError('user_password', 'incorrect email or password');
                 }
