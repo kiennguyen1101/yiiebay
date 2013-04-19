@@ -2,124 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ee1766-b56f-4c44-a8ae-e13c4ae3df0c" name="Default" comment="before authentication">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/images/bg_formInputText.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/images/bg_menuButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/images/bg_tooltip.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/rating/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/file.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/folder-closed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/autocomplete/indicator.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/images/logo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/rating/star.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-black-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-black.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-default-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-famfamfam-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-famfamfam.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-gray-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-red-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/images/treeview-red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/css/bootstrap-yii.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/less/bootstrap-yii.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/60d476cd/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/css/core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/js/jquery-ui-i18n.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/js/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.ajaxqueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/autocomplete/jquery.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.ba-bbq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.bgiframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.maskedinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.maskedinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.multifile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/rating/jquery.rating.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.treeview.async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/treeview/jquery.treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.treeview.edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.resizable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.selectable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jui/css/base/jquery.ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.yii.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.yiiactiveform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/yiitab/jquery.yiitab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/e54a403e/jquery.yiitab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a7b48b/js/rights.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/components/Bootstrap.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/components/Bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapCode.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbActiveForm.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbActiveForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbAlert.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbAlert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButton.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButton.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCarousel.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCarousel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCollapse.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCollapse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGridView.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGridView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInput.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbListView.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbListView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbModal.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbModal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbNavbar.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbNavbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabs.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_search.php" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/b356db7/less/bootstrap-yii.less" afterPath="$PROJECT_DIR$/assets/b356db7/less/bootstrap-yii.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main_config.php" afterPath="$PROJECT_DIR$/protected/config/main_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yiiblog.iml" afterPath="$PROJECT_DIR$/.idea/yiiblog.iml" />
     </list>
     <ignored path="yiiblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -311,10 +196,14 @@
       <recent name="C:\wamp\www\yiiblog\protected\modules\admin\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.login.php">
+  <component name="RunManager" selected="PHPUnit.yiiblog">
     <configuration default="false" name="login.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/protected/views/admin/login.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="yiiblog" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -333,12 +222,14 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.login.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.yiiblog" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.login.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.yiiblog" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.login.php" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +285,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

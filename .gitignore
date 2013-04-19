@@ -1,1 +1,7 @@
 /assets/
+
+assets/
+
+protected/runtime/
+.idea/
+.sass-cache/
