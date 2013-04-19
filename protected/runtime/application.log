@@ -7492,3 +7492,34 @@ in C:\wamp\www\yiiblog\index.php (31)
 in C:\wamp\www\yiiblog\protected\modules\rights\components\RInstaller.php (105)
 in C:\wamp\www\yiiblog\protected\modules\rights\controllers\InstallController.php (90)
 in C:\wamp\www\yiiblog\index.php (31)
+2013/04/15 12:38:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yiiblog'' in E:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 E:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 E:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 E:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 E:\wamp\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 E:\wamp\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 E:\wamp\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 E:\wamp\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 E:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 E:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 E:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 E:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 E:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/bootstrap')
+#14 E:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiiblog/gii/bootstrap
+HTTP_REFERER=http://localhost/yiiblog/gii/default/index
+---
+2013/04/15 12:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/logout".' in E:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/default/log...')
+#1 E:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\wamp\www\yiiblog\index.php(31): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiblog/gii/default/logout
+HTTP_REFERER=http://localhost/yiiblog/gii/module
+---
