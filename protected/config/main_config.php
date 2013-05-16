@@ -6,7 +6,7 @@
 // CWebApplication properties can be configured here.
 
   Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
-  
+
   $config = array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'My Web Application',
@@ -15,22 +15,24 @@
     // autoloading model and component classes
     'import' => array(
       'application.models.*',
-      'application.components.*',
-      'application.modules.rights.*',
-      'application.modules.rights.components.*', // Correct paths if necessary.
+      'application.components.*',     
     ),
     'modules' => array(
       // uncomment the following to enable the Gii tool
 
       'gii' => array(
         'class' => 'system.gii.GiiModule',
-        'password' => '1',
+        'password' => '123456',
         // If removed, Gii defaults to localhost only. Edit carefully to taste.
         'ipFilters' => array('127.0.0.1', '::1'),
         'generatorPaths' => array(
           'bootstrap.gii',
         ),
       ),
+      'admin' => array(
+//        'defaultController' => 'AdminDefault',
+      ),
+      'user',
     ),
     // application components
     'components' => array(
@@ -40,7 +42,7 @@
       // 'cache' => $cache,
       'user' => array(
         // enable cookie-based authentication
-        'class' => 'RWebUser',
+//        'class' => 'RWebUser',
         'allowAutoLogin' => true,
       ),
       // uncomment the following to enable URLs in path-format
@@ -48,17 +50,18 @@
         'urlFormat' => 'path',
         'showScriptName' => false,
         'rules' => array(
+          '<action:(page|contact|login|logout|register)>' => 'site/<action>',
+          'admin/<action:(login|index)>' => 'admin/index/<action>',
           '<controller:\w+>/<id:\d+>' => '<controller>/view',
           '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
           '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
-          '<action:(page|contact|login|logout|register)>' => 'site/<action>',
         ),
       ),
       'db' => array(
         'connectionString' => 'mysql:host=localhost;dbname=yiiblog',
         'schemaCachingDuration' => 3600,
         'emulatePrepare' => true,
-        'tablePrefix' => 'yii_',
+        'tablePrefix' => '',
         'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
@@ -101,10 +104,6 @@
         'CharSet' => 'utf-8',
         'ContentType' => 'text/html',
       ),
-    ),
-    'modules' => array(
-      'Users',
-      'admin',
     ),
     // application-level parameters that can be accessed
     // using Yii::app()->params['paramName']
