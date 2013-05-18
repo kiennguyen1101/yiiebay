@@ -19,20 +19,19 @@
       //processing form
       if (isset($_POST['LoginForm'])) {
 
-        //magic attribute
+        //magic attribute set
         $model->attributes = $_POST['LoginForm'];
-        //validate using rules
+        //validate using LoginForm rules
         if ($model->validate()) {
-          //call user module
+          //call user module to use the models within
           Yii::app()->getModule('user');
-          //set user's identity
+          
           $identity = new UserIdentity($model->user_email, $model->user_password);
-          //authenticate user
+         
           if ($identity->authenticate()) {
+            
             //login this identity for 30 days if rememberMe checked
-            
-            $duration = $model->rememberMe ? 3600 * 24 * 30 : 0; // 30 days       
-            
+            $duration = $model->rememberMe ? 3600 * 24 * 30 : 0;    
             Yii::app()->user->login($identity, $duration);
             //redirect to admin main page
             $this->redirect($this->createUrl('/admin/'));
